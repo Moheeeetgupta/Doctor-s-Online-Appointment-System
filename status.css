@@ -1,0 +1,167 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.header
+{
+    height: 60px;
+    background: rgb(72, 72, 238);
+}
+.container
+{
+    height: 200px;
+    background: purple;
+}
+img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.container-box
+{
+    float: left;
+    width: 400px;
+    height: 200px;
+    
+    margin-left: 100px;
+}
+.container a
+{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+    line-height: 60px;
+}
+ #b
+{
+    font-size: 25px;
+    line-height: 30px;
+
+}
+.container1
+{
+    height: 400px;
+}
+.container1-box
+{
+    width: 40%;
+    height: 400px;
+    background: white;
+    float: left;
+   
+}
+#c
+{
+    width: 10px;
+    background: rgb(74, 114, 247);
+    height: 400px;
+
+}
+.head
+{
+    line-height: 40px;
+    text-align: center;
+}
+.head1
+{
+    background: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    line-height: 50px;
+    position: relative;
+    margin-left: -3px;
+    margin-top: 35px;
+   
+}
+.head3
+{
+    line-height: 40px;
+    text-align: center;
+}
+#d
+{
+    width: 293px;
+    background: white;
+    height: 400px;
+
+}
+.container2
+{
+    height: 70px;
+    background: purple;
+}
+.btn
+{
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 50px;
+    background: white;
+    margin-top: 20px;
+    line-height: 70px;
+    margin-left: 42%;
+    border-radius: 25px;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+.btn:hover
+{
+    background-color: green;
+}
+
+
+.footer{
+    min-height: 300px;
+    background-color: rgb(70, 67, 67);
+    width: 100%;
+}
+.footer-space{
+    width: 90%;
+    height: 180px;
+   
+}
+.list-space{
+    width: 300px;
+    height: 200px;
+   
+    margin-left: 50px;
+    float: left;
+}
+.list-space ul li{
+    float: none;
+    font-size: 20px;
+    width: 140px;
+    margin-left: 50px;
+    text-align: left;
+    height: 25px;
+    margin-top: 20px;
+    color: #000;
+    font-weight: bold;
+}
+.list-space select{
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+.footer p{
+    margin-top: 20px;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+}
+.heading ul li{
+    font-size: 20px;
+    float: left;
+    width: 140px;
+    margin-left: 100px;
+    color: #000;
+    font-weight: bold;
+}

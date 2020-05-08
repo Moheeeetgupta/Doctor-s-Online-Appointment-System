@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+            <title>Get appointment</title>
+            <link rel="stylesheet"  href="dpage.css">
+            <link rel="stylesheet"  href="C:\Users\LENOVO\Desktop\html folder\MY WEBSITE\fontawesome-free-5.12.0-web\css\all.css">
+            <style>
+                    .dropbtn {
+                      background-color: #4CAF50;
+                      color: white;
+                      padding: 10px;
+                      font-size: 16px;
+                      border: none;
+                     
+                    }
+                    
+                    .dropdown {
+                      position: relative;
+                      diplay:inline;
+                      
+                      
+                    }
+                    
+                    .dropdown-content {
+                      display: none;
+                      position: absolute;
+                      background-color: #f9f9f9;
+                      min-width: 160px;
+                      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                      z-index: 1;
+                    }
+                    
+                    .dropdown-content a {
+                      color: black;
+                      padding: 20px 16px;
+                      text-decoration: none;
+                      display: block;
+                    }
+                    
+                    .dropdown-content a:hover {background-color: #f1f1f1}
+                    
+                    .dropdown:hover .dropdown-content {
+                      display: block;
+                    }
+                    
+                    .dropdown:hover .dropbtn {
+                      background-color: #3e8e41;
+                    }
+                    </style>
+      </head>
+      <body> 
+       
+        <div class="menu-bar">
+                
+               
+                        <div class="dropdown" style="left:80%">
+                            <a href="#" class="dropbtn" ><i class="fas fa-ellipsis-v"></i></a>
+                        <div class="dropdown-content">
+                                <a href="#"><i class="fas fa-home"></i>&nbsp&nbsp&nbsp Start queue</a>
+                                <a href="#"><i class="fas fa-history"></i>&nbsp&nbsp&nbsp Stop queue</a>
+                                <a href="#"><i class="far fa-user"></i>&nbsp&nbsp&nbsp Show availability</a>
+                                <a href="#"><i class="far fa-user"></i>&nbsp&nbsp&nbsp Notify patients</a>
+                                <a href="#"><i class="far fa-user"></i>&nbsp&nbsp&nbsp Processed token</a>
+                                <a href="#"><i class="far fa-user"></i>&nbsp&nbsp&nbsp Clear local database</a>
+                                
+                                
+                        
+                        </div>
+                      </div>
+                      <div class="dropdown">
+                          <a href="#" class="dropbtn"><i class="fas fa-bars"></i></a>
+                        <div class="dropdown-content" >
+                            <a href="#"><i class="far fa-user"></i>&nbsp&nbsp&nbsp Home</a>
+                            <a href="#"><i class="far fa-user"></i>&nbsp&nbsp&nbsp Payments history</a>
+                            <a href="#"><i class="far fa-user"></i>&nbsp&nbsp&nbsp Update time  slots</a>
+                            <a href="#"><i class="far fa-user"></i>&nbsp&nbsp&nbsp Share link</a></li>
+                            <a href="#"><i class="far fa-user"></i>&nbsp&nbsp&nbsp Settings</a>
+                            <a href="#"><i class="far fa-user"></i>&nbsp&nbsp&nbsp Feedback</a>
+                            <a href="#"><i class="far fa-user"></i>&nbsp&nbsp&nbsp Learning resources</a>
+                            <a href="#"><i class="far fa-user"></i>&nbsp&nbsp&nbsp Contact us</a>
+                        </div>
+                        </div>
+                      
+                  
+                      
+                      
+                        
+                      
+            
+                  
+            
+            
+            <a href="register.html" class="profile"><i class="fas fa-user-circle"></i>&nbsp&nbsp Techmedico &nbsp&nbsp<i class="fas fa-angle-double-down"></i><br><br>
+              
+            <i class="fas fa-map-marker-alt"></i></i>&nbsp&nbsp&nbsp BHAGALPUR &nbsp&nbsp&nbsp&nbsp<i class="fas fa-angle-double-down"></i></a>
+            <br>
+
+            
+            
+    </div>
+<div class="search-box">
+    
+
+        <input  class="search-txt" type="text" name="" placeholder="Type to search doctors">
+        <a class="search-btn" href="#"><i class="fas fa-search-dollar"></i></a>
+        
+        
+    </div>
+  </div> 
+</div>
+<div class="navbar">
+  <h2>Queue has stopped</h2>
+  <a href="#Start"><i class="fas fa-user-plus"></i></a>
+    
+  <button class="btn" onclick="fun()">Start</button> 
+  <script>
+    function fun(){
+      document.getElementsByClassName("navbar")[0].style.backgroundColor="rgb(61, 230, 10)";
+    }
+  </script>
+     
+ </div>
+ 
+
+ 
+    
+
+<div class="doctor">
+    <img class="dprofile" src="img.png">
+    <h1 class="dname">Aman kumar</h1><h3 class="dname">SABOUR</h3><h6 class="dname">TOKEN:8457</h6>
+    <a class="eye" href="PRSENCE.HTML"><i class="far fa-eye"></i></a>
+    <a class="dlocation" href="#"><i class="fas fa-map-marker-alt"></i></i>&nbsp&nbsp&nbsp online  </a>
+
+</div>
+<div class="doctor">
+    <img class="dprofile" src="img.png">
+    <h1 class="dname">Satyam kumar</h1><h3 class="dname">SABOUR</h3><h6 class="dname">TOKEN:8457</h6>
+    <a class="eye" href="#"><i class="far fa-eye"></i></a>
+    <a class="dlocation" href="#"><i class="fas fa-map-marker-alt"></i></i>&nbsp&nbsp&nbsp Walk in </a>
+
+</div>
+<div class="doctor">
+    <img class="dprofile" src="img.png">
+    <h1 class="dname">Shivani kumari</h1><h3 class="dname">SABOUR</h3><h6 class="dname"TOKEN:8457</h6>
+    <a class="eye" href="#"><i class="far fa-eye"></i></a>
+    <a class="dlocation" href="#"><i class="fas fa-map-marker-alt"></i></i>&nbsp&nbsp&nbsp Via call </a>
+
+</div>
+<div class="doctor">
+    <img class="dprofile" src="img.png">
+    <h1 class="dname">Sakshi Gupta</h1><h3 class="dname">SABOUR</h3><h6 class="dname">TOKEN:8457</h6>
+    <a class="eye" href="PRSENCE.HTML"><i class="far fa-eye"></i></a>
+    <a class="dlocation" href="#"><i class="fas fa-map-marker-alt"></i></i>&nbsp&nbsp&nbsp  online  </a>
+
+</div>
+<div class="doctor">
+    <img class="dprofile" src="img.png">
+    <h1 class="dname">kanchan kumar</h1><h3 class="dname">SABOUR</h3><h6 class="dname">TOKEN:8457</h6>
+    <a class="eye" href="#"><i class="far fa-eye"></i></a>
+    <a class="dlocation" href="PRSENCE.HTML"><i class="fas fa-map-marker-alt"></i></i>&nbsp&nbsp&nbsp  online </a>
+
+</div>
+<div class="doctor">
+    <img class="dprofile" src="img.png">
+    <h1 class="dname">Mohit Gupta</h1><h3 class="dname">SABOUR</h3><h6 class="dname">TOKEN:8457</h6>
+    <a class="eye" href="PRSENCE.HTML"><i class="far fa-eye"></i></a>
+    <a class="dlocation" href="#"><i class="fas fa-map-marker-alt"></i></i>&nbsp&nbsp&nbsp online</a>
+
+</div>
+
+<div class="doctor">
+    <img class="dprofile" src="img.png">
+    <h1 class="dname">Achintya kumar</h1><h3 class="dname">SABOUR</h3><h6 class="dname">TOKEN:8457</h6>
+    <a class="eye" href="PRSENCE.HTML"><i class="far fa-eye"></i></a>
+    <a class="dlocation" href="#"><i class="fas fa-map-marker-alt"></i></i>&nbsp&nbsp&nbsp  online</a>
+
+</div>
+<div class="doctor">
+    <img class="dprofile" src="img.png">
+    <h1 class="dname">Abhishek kumar</h1><h3 class="dname">SABOUR</h3><h6 class="dname">TOKEN:8457</h6>
+    <a class="eye" href="PRSENCE.HTML"><i class="far fa-eye"></i></a>
+    <a class="dlocation" href="#"><i class="fas fa-map-marker-alt"></i></i>&nbsp&nbsp&nbsp online </a>
+
+</div>
+<div class="doctor">
+    <img class="dprofile" src="img.png">
+    <h1 class="dname">Nirmal kumar</h1><h3 class="dname">SABOUR</h3><h6 class="dname">TOKEN:8457</h6>
+    <a class="eye" href="PRSENCE.HTML"><i class="far fa-eye"></i></a>
+    <a class="dlocation" href="#"><i class="fas fa-map-marker-alt"></i></i>&nbsp&nbsp&nbsp  online </a>
+
+</div>
+<div class="doctor">
+    <img class="dprofile" src="img.png">
+    <h1 class="dname">Birbal kumar</h1><h3 class="dname">SABOUR</h3><h6 class="dname">TOKEN:8457</h6>
+    <a class="eye" href="#"><i class="far fa-eye"></i></a>
+    <a class="dlocation" href="#"><i class="fas fa-map-marker-alt"></i></i>&nbsp&nbsp&nbsp  online  </a>
+    
+</div>
+
+
+    
+</body>
+</html>
